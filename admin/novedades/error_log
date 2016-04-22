@@ -1,0 +1,12 @@
+[07-Oct-2015 13:50:19 America/New_York] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 7 in /home/impacto/public_html/includes/class.upload.php on line 2886
+[07-Oct-2015 13:50:19 America/New_York] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 7 in /home/impacto/public_html/includes/class.upload.php on line 2904
+[07-Oct-2015 13:50:20 America/New_York] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 7 in /home/impacto/public_html/includes/class.upload.php on line 2886
+[07-Oct-2015 13:50:20 America/New_York] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 7 in /home/impacto/public_html/includes/class.upload.php on line 2904
+[01-Mar-2016 16:00:56 America/New_York] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 7 in /home/impacto/public_html/includes/class.upload.php on line 2886
+[01-Mar-2016 16:00:56 America/New_York] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 7 in /home/impacto/public_html/includes/class.upload.php on line 2904
+[01-Mar-2016 16:00:56 America/New_York] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 7 in /home/impacto/public_html/includes/class.upload.php on line 2886
+[01-Mar-2016 16:00:56 America/New_York] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 7 in /home/impacto/public_html/includes/class.upload.php on line 2904
+[01-Mar-2016 16:04:31 America/New_York] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 7 in /home/impacto/public_html/includes/class.upload.php on line 2886
+[01-Mar-2016 16:04:31 America/New_York] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 7 in /home/impacto/public_html/includes/class.upload.php on line 2904
+[01-Mar-2016 16:04:31 America/New_York] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 7 in /home/impacto/public_html/includes/class.upload.php on line 2886
+[01-Mar-2016 16:04:31 America/New_York] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 7 in /home/impacto/public_html/includes/class.upload.php on line 2904

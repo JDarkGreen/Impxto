@@ -1,0 +1,1019 @@
+body{
+	line-height: 19px;
+ 	background-attachment: fixed;
+	background-color: #EBEBEB;
+	background-image: url(../images/fondo-bg.jpg);
+	background-repeat: repeat;
+	background-position: 50% 50%;
+}
+
+#header{
+/*	background:url(../images/bg-header.jpg) repeat-x;*/
+	float:left;
+	height:134px;
+	width:100%;
+}
+
+#header_contenido{
+	margin:0 auto;
+	height:134px;
+	width:1000px;
+}
+
+#header_logo{
+	background:url(../images/logo-impacto-promocional-lima-peru.png) no-repeat;
+	float:left;
+	height:105px;
+	margin: 10px 10px;
+	width:415px;
+}
+
+#header_derecha{
+	float:right;
+	height:107px;
+	margin: 18px 16px;	
+	width:260px;
+}
+
+#pedidos {
+    float: right;
+    height: auto;
+    width: 247px;
+}
+
+#pedidos p.imagen_telefono {
+    background: url("../images/icono-telefono.png") no-repeat left top;
+    color: #FFFFFF;
+    float: left;
+    height: 37px;
+    margin: 6px;
+    width: 37px;
+}
+
+#pedidos p.titulo {
+    color: #76AE1D;
+    font-size: 18px;
+    padding-top: 6px;
+}
+
+#pedidos p.email {
+    color: #FFFFFF;
+    font-size: 22px;
+    padding-top: 4px;
+/*	text-align:right;*/
+}
+
+#redes-sociales {
+    float: right;
+    height: 43px;
+    margin-top: 10px;
+    width: 200px;
+}
+
+#redes-sociales p {
+    color: #FFFFFF;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    margin: 2px 0;
+}
+
+#redes-sociales p.tituloRedesSociales {
+    float: left;
+    margin-right: 5px;
+	margin-top:2px;
+    padding-top: 15px;	
+}
+
+.list-services {
+    float: left;
+	height:34px;
+    padding: 3px 0 0 0;
+	width:114px;
+}
+
+.list-services li {
+    color: #FFFFFF;
+    float: left;
+    font-family: 'Adamina',serif;
+    font-size: 19px;
+    line-height: 2em;
+	list-style:none;
+    padding: 0 5px 0 0;
+}
+
+.list-services li a {
+    background: url(../images/redes-sociales-impacto-promocional.png) no-repeat left top;
+    display: block;
+    height: 34px;
+    text-indent: -9999px;
+    width: 33px;
+}
+
+.list-services li.item-1 a {
+	background-position:0 0;
+}
+.list-services li.item-2 a {
+	background-position:-38px 0;
+}
+
+.list-services li.item-3 a {
+	background-position:-78px 0;
+}
+
+#header_menu{
+	background:url(../images/bg-menu.png) repeat;
+	float:left;
+	height:59px;
+	width:100%;
+}
+
+#header_contenido_menu{
+	margin:0 auto;
+	height:51px;
+	width:1000px;
+}
+
+#nav{
+	margin:0;
+	padding:0;	
+}
+
+#nav li{
+	float:left;	
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#nav a{
+	color: #333;
+	display: block;
+	text-decoration: none;
+	font-size: 18px;
+	margin-right: 50px;
+	padding: 20px 36px 15px 35px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 17px;
+	font-family: Impact, "Helvetica LT Std", Arial;
+}
+
+#nav a:hover{
+	background: #38434B;
+	color:#fff;		
+}
+
+#nav .activamenu{
+	background: #38434B;
+	color:#fff;
+}
+
+#cuerpo{
+	float: left;
+	height: auto;
+	width: 100%;
+	background-attachment: scroll;
+	background-image: url(../images/cuerpo-bg.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#contenido_cuerpo{
+	background:url(../images/bg-cuerpo.jpg) repeat-y;
+	height:auto;
+	margin:0 auto;
+	width:1000px;
+}
+
+#banner{
+	float:left;
+	height:auto;
+	position:relative;
+	width:1000px;
+	z-index:1;	
+}
+
+#bienvenida{
+	float:left;
+	height:auto;
+	margin-bottom: 12px;
+	margin-top: -28px;
+	width:1000px;	
+}
+
+.sombra{
+	background:url(../images/bottom-sombra-banner.png) no-repeat;
+	float:left;
+	height:63px;
+    position: relative;
+    top: -38px;
+	width:1000px;	
+}
+
+#columna_izq{
+	float:left;
+	height:auto;
+	width:282px;
+}
+
+#categorias{
+	float:left;
+	height:auto;
+	padding-left: 12px;
+	width:260px;
+}
+
+#categorias h1{
+	background:url(../images/titulo-categoria.png) no-repeat;
+	color:#000;	
+	font-family:Impact;
+    font-size: 22px;
+	font-weight:100;
+    height: 35px;
+    padding: 5px 0 0 20px;
+	text-transform:uppercase;
+	width:240px;
+}
+
+#categorias ul {
+    margin: 0;
+    padding: 12px;
+}
+
+#categorias li {
+	background: url("../images/icono-categoria.png") no-repeat;
+	margin-bottom: 12px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #06B3C6;
+}
+
+#categorias li a {
+    color: #000;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 25px;
+    vertical-align: top;
+}
+
+#categorias li a:hover {386
+
+	color: #06A7BD;
+	text-decoration: underline;
+}
+
+#video{
+	float:left;
+	height:auto;
+	padding-left: 23px;
+	width:255px;
+}
+
+#video p{
+    color: #223B1A;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+	margin:8px 0;
+}
+
+#portada_video{
+	float:left;
+	height:auto;
+	margin-top:15px;	
+	padding-left: 23px;
+	width:255px;
+}
+
+#columna_der{
+	border-left:#AAAAAA 1px solid;	
+	float:right;
+	height:auto;
+	padding-left: 14px;
+	width:692px;
+}
+
+#columna_der h1{
+	color:#000;	
+	font-family:Impact;
+    font-size: 22px;
+	font-weight:100;
+    padding: 5px 0;
+	text-transform:uppercase;
+}
+
+.cuadro {
+	background: #FFF;
+	border: 1px solid #07B0C8;
+	float: left;
+	height: 320px;
+	margin: 15px 5px 8px;
+	padding: 0;
+	text-align: center;
+	width: 217px;
+}
+
+.cuadro-imagen {
+    float: left;
+    height: 193px;
+	padding-bottom: 15px;
+    padding-top: 10px;
+    text-align: center;
+    width: 99%;
+}
+
+.cuadro-codigo {
+    color: #68961B;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    height: auto;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.cuadro-titulo {
+    color: #666;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    height: auto;
+	margin-left: 5px;
+    margin-bottom: 6px;
+    text-align: left;
+    width: 86px;
+}
+
+.cuadro-titulo span{
+    color: #5E8817;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+}
+
+.cuadro-nombre {
+    color: #037C8C;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+	font-weight:bold;
+    height: auto;
+    margin-bottom: 6px;
+    margin-left: 5px;
+    text-align: left;
+	width: 206px;
+}
+
+.cuadro-nombre-categoria {
+    color: #333;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    height: auto;
+	margin-left: 5px;
+    margin-bottom: 6px;
+    margin-right: 6px;
+    text-align: left;
+}
+
+.cuadro-botones {
+    float: left;
+    height: auto;
+    margin-top: 2px;
+    width: 100%;
+}
+
+.btn-detalles {
+	color: #3D4952;
+	float: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	height: 20px;
+	margin-top: 4px;
+	text-align: center;
+	width: 58px;
+}
+
+.btn-detalles a {
+	color: #07B0C8;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.btn-solicitar {
+    background: #000;
+    color: #FFFFFF;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    height: 22px;
+    padding-top: 7px;
+    text-align: center;
+    width: 85px;
+}
+
+.btn-solicitar a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#footer{
+	float:left;
+	height:104px;
+	width:100%;
+	 background:url(../images/footer-bg.png) no-repeat 50% 50% ;
+	background-size:cover ;
+
+-webkit-background-size: cover;
+
+-moz-background-size: cover;
+
+-o-background-size: cover;
+
+}
+
+#footer_contenido{
+	margin:0 auto;
+	height:auto;
+	width:1000px;
+}
+
+#footer_izq{
+	float:left;
+	height:auto;
+}
+
+#footer_der{
+	float:right;
+	height:auto;
+	padding-top: 14px;
+	width:498px;
+}
+
+#footer_der p{
+	color: #1B1B1B;
+	font-family: Impact;
+	font-weight: 100;
+	font-size: 16px;
+	margin: 3px 0;
+	text-align: right;
+}
+
+/******************************************************************* EMPRESA *****************************************************************************************/
+
+#banner_mediano{
+	float:left;
+	height:auto;
+	position:relative;
+	width:1000px;
+	z-index:1;	
+}
+
+#empresa{
+	float:left;
+	height:auto;
+	margin-bottom: 12px;
+	margin-top: -28px;
+	width:1000px;	
+}
+
+#empresa h1{
+    color: #000;
+    font-family: Impact;
+	font-weight:100;
+    font-size: 22px;
+	padding-left: 8px;
+	text-transform:uppercase;		
+}
+
+#empresa p{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+	font-weight:100;
+    font-size: 13px;
+	margin:8px 0 0 9px;
+}
+
+#mision_vision{
+	float:left;
+	height:auto;
+	margin: 22px 0 23px 10px;	
+	width:980px;
+}
+
+#mision{
+	float:left;
+	height:auto;
+	width:455px;
+}
+
+.contenido_mision{
+    float: left;
+    height: auto;
+    margin-left: 10px;
+    width: 284px;
+}
+
+.contenido_mision h2{
+    color: #037C8C;
+    font-family: Impact;
+	font-weight:100;
+    font-size: 18px;
+	margin:0 0 10px 0;
+	text-transform:uppercase;
+}
+
+.contenido_mision p{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+	font-weight:100;
+    font-size: 13px;
+	margin:4px 0;
+}
+
+#vision{
+	float:right;
+	height:auto;
+	width:455px;
+}
+
+.contenido_vision{
+	float:left;
+	height:auto;
+    margin-left: 10px;
+    width: 284px;	
+}
+
+.contenido_vision h2{
+    color: #037C8C;
+    font-family: Impact;
+	font-weight:100;
+    font-size: 18px;
+	margin:0 0 10px 0;
+	text-transform:uppercase;	
+}
+
+.contenido_vision p{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+	font-weight:100;
+    font-size: 13px;
+	margin:4px 0;	
+}
+
+/******************************************************************* NOVEDADES *****************************************************************************************/
+
+#novedades{
+	float:left;
+	height:auto;
+	margin-bottom: 12px;
+	margin-top: -28px;
+	width:1000px;	
+}
+
+#novedades h1{
+    color: #000;
+    font-family: Impact;
+	font-weight:100;
+    font-size: 22px;
+	margin-bottom: 12px;
+	padding-left: 8px;
+	text-transform:uppercase;		
+}
+
+#lista_novedades{
+	float:left;
+	height:auto;
+	margin-bottom: 13px;
+	width:1000px;
+}
+
+#lista_novedades h2{
+    color: #7BB41F;
+	float:left;
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-left: 9px;	
+}
+
+#lista_novedades p{
+    color: #000;
+	float:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+	height:auto;
+    margin: 4px 0 0 10px;
+    width: 700px;
+}
+
+/******************************************************************* PRODUCCION *****************************************************************************************/
+
+.cuadro-video {
+    float: left;
+    height: 300px;
+    margin: 15px 12px 8px 0;
+    padding: 0;
+    text-align: center;
+    width: 330px;
+}
+
+.titulo-video {
+    float: left;
+    height: auto;
+    margin-bottom: 6px;
+    text-align: left;
+}
+
+.titulo-video p.titulo3{
+    color: #7BB41F;
+    font-size: 20px;
+	margin:5px 0;
+}
+
+.video {
+    border: 1px solid #07B0C8;	
+    float: left;
+    height: 218px;
+    margin-bottom: 6px;
+    width: 330px;
+}
+
+.descrip_video{
+    float: left;
+    height: auto;
+    margin-bottom: 6px;
+    width: 330px;	
+}
+
+.descrip_video p{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+	text-align:left;	
+}
+
+#produccion{
+	float:left;
+	height:auto;
+	margin-bottom: 12px;
+	margin-top: -28px;
+	width:1000px;	
+}
+
+#novedades h1{
+    color: #000;
+    font-family: Impact;
+	font-weight:100;
+    font-size: 22px;
+	margin-bottom: 12px;
+	padding-left: 8px;
+	text-transform:uppercase;		
+}
+
+#lista_novedades{
+	float:left;
+	height:auto;
+	margin-bottom: 13px;
+	width:1000px;
+}
+
+#lista_novedades p{
+    color: #000;
+	float:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+	height:auto;
+    margin: 4px 0 0 10px;
+    width: 700px;
+}
+
+/**************************************************************** DETALLE DEL PRODUCTO **************************************************************************************/
+
+#detalle_producto{
+	float:right;
+	height:auto;
+	width:685px;
+}
+
+#imagen_producto{
+	background:#FFF;
+	border:#06AEC6 2px solid;
+	float:left;
+	height:411px;
+	width:380px;
+}
+
+#imagen_producto img{
+	padding:14px 18px;
+}
+
+#descripcion{
+	float:right;
+	height:auto;
+	width:276px;
+}
+
+#descripcion p{
+	color:#333;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	margin:5px 0;
+}
+
+#descripcion p.titulo_producto{
+	color:#07B0C8;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	margin:5px 0;
+}
+
+#descripcion p.codigo{
+	color:#333;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	margin:5px 0;
+}
+
+#descripcion p.codigo span{
+	color:#68961B;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	margin:5px 0;
+}
+
+#descripcion p.des{
+	color:#333;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-align:justify;
+}
+
+#boton_cotizar{
+	background:#000;
+	float:left;
+	height:25px;
+	margin: 12px 0 0 25px;
+	width:85px;
+}
+
+#formulario_cotizar{
+/*	background:#7BB51F;*/
+	float:left;
+	height:auto;
+	margin-top:22px;
+	width:684px;
+}
+
+#formulario_cotizar h2{
+    color: #000;
+    font-family: Impact;
+	font-weight:100;
+    font-size: 22px;
+	margin-bottom: 12px;
+	padding-left: 8px;
+	text-transform:uppercase;
+}
+
+#content_form_pedido {
+	background:#06AEC6;
+	float: left;
+	height: auto;
+	padding-bottom: 12px;
+	padding-top: 15px;
+	width: 684px;
+}
+
+#content_form_pedido h3 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	margin-bottom: 15px;
+	margin-left: 14px;
+}
+
+#content_form_pedido p {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	margin: 5px 0;
+}
+
+#content_form_pedido label.form_lab {
+	color: #000;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+	padding-left: 6px;
+	text-align: right;
+	vertical-align: top;
+	width: 80px;
+}
+
+#content_form_pedido label.form_lab_derecha {
+	color: #000;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+	text-align: right;
+	vertical-align: top;
+	width: 80px;
+}
+
+#content_form_pedido input.borde_texto {
+	background: #fff;
+	border: #999 1px solid;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	height: 24px;
+	margin-bottom: 15px;
+	width: 248px;
+}
+
+#content_form_pedido input.borde_cantidad {
+	background: #fff;
+	border: #999 1px solid;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	height: 25px;
+	margin-bottom: 10px;
+	width: 76px;
+}
+
+#content_form_pedido textarea.borde {
+	background: #fff;
+	border: #999 1px solid;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	height: 92px;
+	width: 245px;
+}
+
+.botones_pedido {
+	float: right;
+	margin-right: -4px;
+	margin-top: 15px;
+	text-align: right;
+}
+
+#boton_pedido {
+	background: #000000;
+	border: medium none;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	height: 25px;
+	margin-right: 23px;
+	width: 85px;
+}
+
+.mensaje_pedido {
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+
+/********************************************************** CONTACTENOS **************************************************************************************/
+
+#contactenos{
+	float:left;
+	height:auto;
+	margin-bottom: 12px;
+	margin-top: -28px;
+	width:1000px;	
+}
+
+#contactenos h1{
+    color: #000;
+    font-family: Impact;
+	font-weight:100;
+    font-size: 22px;
+	margin-bottom: 15px;
+	padding-left: 8px;
+	text-transform:uppercase;		
+}
+
+#contenido_mapa_contactenos{
+	float:left;
+	height:auto;
+	margin-left: 9px;
+	width:980px;
+}
+
+#contenido_contactenos{
+	float: left;
+	height: 410px;
+	margin-left: 9px;
+	width: 980px;
+}
+
+#direcciones {
+    float: left;
+    height: auto;
+    margin-bottom: 18px;
+	margin-top: 15px;
+    width: 372px;
+}
+
+#direcciones p {
+    color: #333333;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+#formulario_contactenos_der {
+    float: right;
+    height: auto;
+	margin-top: 15px;
+    width:400px;
+}
+
+#content_form_contactenos {
+	float: right;
+	margin-top: 3px;
+	width: 400px;
+	height: auto;
+	padding-bottom: 10px;
+}
+
+#content_form_contactenos p {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 8px 0 16px;
+}
+
+#content_form_contactenos h2 {
+	color: #037C8C;
+	font-family: Impact;
+	font-weight:100;
+	font-size: 22px;
+	margin-bottom: 18px;
+}
+
+#content_form_contactenos label.form_lab {
+	color: #000;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: right;
+	vertical-align: top;
+	width: 64px;
+}
+
+#content_form_contactenos input.borde_texto {
+	background: #fff;
+	border: #ccc 1px solid;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	height: 35px;
+	margin-bottom: 15px;
+	width: 273px;
+}
+
+#content_form_contactenos textarea.borde {
+	background: #fff;
+	border: #ccc 1px solid;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	height: 60px;
+	width: 273px;
+}
+
+.botones_contactenos {
+	float: left;
+	margin-left: 68px;
+	margin-right: 0;
+	margin-top: 15px;
+	text-align: center;
+}
+
+#boton_contactenos {
+	background: #7BB41F;
+	border: medium none;
+	color: #fff;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 23px;
+	height: 32px;
+	text-transform: uppercase;
+	width: 100px;
+}
+
+.mensaje {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
